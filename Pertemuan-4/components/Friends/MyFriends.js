@@ -4,6 +4,7 @@ import ExpScrollView from "./widgets/ExpScrollView";
 import ExpFlatList from "./widgets/ExpFlatList";
 import SearchBar from "./widgets/SearchBar";
 import { Users } from "../const-data/Dummy";
+import { UsersNew } from "../const-data/Dummy";
 import ExpSectionList from "./widgets/ExpSectionList";
 
 class MyFriends extends Component {
@@ -19,10 +20,10 @@ class MyFriends extends Component {
           {/* <ExpScrollView Users={Users} /> */}
 
           {/* FlatList */}
-          <ExpFlatList />
+          {/* <ExpFlatList Users={Users} /> */}
 
           {/* SectionList */}
-          {/* <ExpSectionList /> */}
+          <ExpSectionList />
         </View>
       </SafeAreaView>
     );
@@ -40,10 +41,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     paddingHorizontal: 10,
-    backgroundColor: "orange",
+    backgroundColor: "grey",
   },
   body: {
     flex: 10,
-    backgroundColor: "green",
+    backgroundColor: "black",
   },
 });

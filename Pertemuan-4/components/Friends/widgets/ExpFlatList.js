@@ -1,9 +1,8 @@
 import React from "react";
 import { FlatList } from "react-native";
-import { Users } from "../../const-data/Dummy";
 import UserItems from "./UserItems";
 
-const ExpFlatList = () => {
+const ExpFlatList = ({ Users }) => {
   return (
     <FlatList
       data={Users}

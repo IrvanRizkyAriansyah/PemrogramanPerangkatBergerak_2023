@@ -1,7 +1,7 @@
 import { ScrollView } from "react-native";
 import React from "react";
-// import { Users } from "../../const-data/User";
 import UserItems from "./UserItems";
+// import { Users } from "../../const-data/Dummy";
 
 const ExpScrollView = ({ Users }) => {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import { SectionList, Text } from "react-native";
 import { Users } from "../../const-data/Dummy";
+import { UsersNew } from "../../const-data/Dummy";
 import UserItems from "./UserItems";
 
 const ExpSectionList = () => {
